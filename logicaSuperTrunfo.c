@@ -11,6 +11,17 @@ struct Carta {
     float densidade; // população / área
 };
 
+int main() {
+    // Dados fixos de duas cartas
+    struct Carta carta1 = {
+        "Brasil",
+        212600000,
+        8515767.0,
+        1847.00,
+        50,
+        0 // será calculado depois
+    };
+
 
 
 int main() {
