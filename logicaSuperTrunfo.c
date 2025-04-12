@@ -51,6 +51,20 @@ int main() {
 
     printf("\nComparando %s vs %s\n", carta1.nome, carta2.nome);
 
+    // Switch com if-else para comparação
+    switch (opcao) {
+        case 1: // População
+            printf("Atributo: População\n");
+            printf("%s: %d habitantes\n", carta1.nome, carta1.populacao);
+            printf("%s: %d habitantes\n", carta2.nome, carta2.populacao);
+            if (carta1.populacao > carta2.populacao)
+                printf("Vencedor: %s\n", carta1.nome);
+            else if (carta2.populacao > carta1.populacao)
+                printf("Vencedor: %s\n", carta2.nome);
+            else
+                printf("Empate!\n");
+            break;
+
 
 
 
