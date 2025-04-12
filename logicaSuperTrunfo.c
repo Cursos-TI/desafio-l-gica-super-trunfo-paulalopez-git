@@ -65,8 +65,29 @@ int main() {
                 printf("Empate!\n");
             break;
 
+        case 2: // Área
+            printf("Atributo: Área\n");
+            printf("%s: %.2f km²\n", carta1.nome, carta1.area);
+            printf("%s: %.2f km²\n", carta2.nome, carta2.area);
+            if (carta1.area > carta2.area)
+                printf("Vencedor: %s\n", carta1.nome);
+            else if (carta2.area > carta1.area)
+                printf("Vencedor: %s\n", carta2.nome);
+            else
+                printf("Empate!\n");
+            break;
 
-
+        case 3: // PIB
+            printf("Atributo: PIB\n");
+            printf("%s: %.2f bilhões de reais\n", carta1.nome, carta1.pib);
+            printf("%s: %.2f bilhões de reais\n", carta2.nome, carta2.pib);
+            if (carta1.pib > carta2.pib)
+                printf("Vencedor: %s\n", carta1.nome);
+            else if (carta2.pib > carta1.pib)
+                printf("Vencedor: %s\n", carta2.nome);
+            else
+                printf("Empate!\n");
+            break;
 
 
 
