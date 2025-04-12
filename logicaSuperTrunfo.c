@@ -22,9 +22,17 @@ int main() {
         0 // será calculado depois
     };
 
+    struct Carta carta2 = {
+        "Alemanha",
+        83100000,
+        357386.0,
+        3860.00,
+        40,
+        0 // será calculado depois
 
 
-int main() {
+
+
    
     return 0;
 }
