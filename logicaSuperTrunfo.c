@@ -89,6 +89,17 @@ int main() {
                 printf("Empate!\n");
             break;
 
+        case 4: // Pontos turísticos
+            printf("Atributo: Pontos Turísticos\n");
+            printf("%s: %d\n", carta1.nome, carta1.pontos_turisticos);
+            printf("%s: %d\n", carta2.nome, carta2.pontos_turisticos);
+            if (carta1.pontos_turisticos > carta2.pontos_turisticos)
+                printf("Vencedor: %s\n", carta1.nome);
+            else if (carta2.pontos_turisticos > carta1.pontos_turisticos)
+                printf("Vencedor: %s\n", carta2.nome);
+            else
+                printf("Empate!\n");
+            break;    
 
 
    
