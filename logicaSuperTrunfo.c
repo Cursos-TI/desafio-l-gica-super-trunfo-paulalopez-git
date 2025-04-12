@@ -36,6 +36,22 @@ int main() {
     carta1.densidade = carta1.populacao / carta1.area;
     carta2.densidade = carta2.populacao / carta2.area;
 
+    int opcao;
+
+    // Menu interativo
+    printf("=== SUPER TRUNFO: COMPARADOR DE CARTAS ===\n");
+    printf("Escolha o atributo para comparar:\n");
+    printf("1. População\n");
+    printf("2. Área\n");
+    printf("3. PIB\n");
+    printf("4. Pontos Turísticos\n");
+    printf("5. Densidade Demográfica\n");
+    printf("Digite sua opção (1 a 5): ");
+    scanf("%d", &opcao);
+
+    printf("\nComparando %s vs %s\n", carta1.nome, carta2.nome);
+
+
 
 
 
