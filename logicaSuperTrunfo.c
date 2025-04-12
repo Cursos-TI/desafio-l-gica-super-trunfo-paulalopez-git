@@ -30,6 +30,13 @@ int main() {
         40,
         0 // será calculado depois
 
+    };
+
+    // Cálculo da densidade demográfica (habitantes por km²)
+    carta1.densidade = carta1.populacao / carta1.area;
+    carta2.densidade = carta2.populacao / carta2.area;
+
+
 
 
 
