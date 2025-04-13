@@ -101,7 +101,9 @@ int main() {
                 printf("Empate!\n");
             break;    
 
-
+        default:
+            printf("Opção inválida! Tente novamente com um número de 1 a 5.\n");
+    }
    
     return 0;
 }
